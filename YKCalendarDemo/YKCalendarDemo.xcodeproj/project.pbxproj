@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B19365841D8E79ED00061861 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B19365831D8E79ED00061861 /* main.m */; };
+		B19365871D8E79ED00061861 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B19365861D8E79ED00061861 /* AppDelegate.m */; };
+		B193658A1D8E79ED00061861 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19365891D8E79ED00061861 /* ViewController.m */; };
+		B193658D1D8E79ED00061861 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B193658B1D8E79ED00061861 /* Main.storyboard */; };
+		B193658F1D8E79ED00061861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B193658E1D8E79ED00061861 /* Assets.xcassets */; };
+		B19365921D8E79ED00061861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19365901D8E79ED00061861 /* LaunchScreen.storyboard */; };
+		B19365A01D8E79FA00061861 /* YKCalendarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B193659B1D8E79FA00061861 /* YKCalendarButton.m */; };
+		B19365A11D8E79FA00061861 /* YKCalendarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B193659D1D8E79FA00061861 /* YKCalendarTool.m */; };
+		B19365A21D8E79FA00061861 /* YKCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B193659F1D8E79FA00061861 /* YKCalendarView.m */; };
+		B19365A51D8E7B2200061861 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B19365A41D8E7B2200061861 /* UIView+Extension.m */; };
+		B19365AA1D8E811900061861 /* IWCalendarSelectedSMView.m in Sources */ = {isa = PBXBuildFile; fileRef = B19365A71D8E811900061861 /* IWCalendarSelectedSMView.m */; };
+		B19365AB1D8E811900061861 /* IWCalendarSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B19365A91D8E811900061861 /* IWCalendarSelectedView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B193657F1D8E79ED00061861 /* YKCalendarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKCalendarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19365831D8E79ED00061861 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B19365851D8E79ED00061861 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B19365861D8E79ED00061861 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B19365881D8E79ED00061861 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B19365891D8E79ED00061861 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B193658C1D8E79ED00061861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B193658E1D8E79ED00061861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B19365911D8E79ED00061861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B19365931D8E79ED00061861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B193659A1D8E79FA00061861 /* YKCalendarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKCalendarButton.h; sourceTree = "<group>"; };
+		B193659B1D8E79FA00061861 /* YKCalendarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKCalendarButton.m; sourceTree = "<group>"; };
+		B193659C1D8E79FA00061861 /* YKCalendarTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKCalendarTool.h; sourceTree = "<group>"; };
+		B193659D1D8E79FA00061861 /* YKCalendarTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKCalendarTool.m; sourceTree = "<group>"; };
+		B193659E1D8E79FA00061861 /* YKCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKCalendarView.h; sourceTree = "<group>"; };
+		B193659F1D8E79FA00061861 /* YKCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKCalendarView.m; sourceTree = "<group>"; };
+		B19365A31D8E7B2200061861 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		B19365A41D8E7B2200061861 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		B19365A61D8E811900061861 /* IWCalendarSelectedSMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWCalendarSelectedSMView.h; sourceTree = "<group>"; };
+		B19365A71D8E811900061861 /* IWCalendarSelectedSMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWCalendarSelectedSMView.m; sourceTree = "<group>"; };
+		B19365A81D8E811900061861 /* IWCalendarSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWCalendarSelectedView.h; sourceTree = "<group>"; };
+		B19365A91D8E811900061861 /* IWCalendarSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWCalendarSelectedView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B193657C1D8E79ED00061861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B19365761D8E79ED00061861 = {
+			isa = PBXGroup;
+			children = (
+				B19365991D8E79FA00061861 /* YKCalendarView */,
+				B19365811D8E79ED00061861 /* YKCalendarDemo */,
+				B19365801D8E79ED00061861 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B19365801D8E79ED00061861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B193657F1D8E79ED00061861 /* YKCalendarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B19365811D8E79ED00061861 /* YKCalendarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B19365851D8E79ED00061861 /* AppDelegate.h */,
+				B19365861D8E79ED00061861 /* AppDelegate.m */,
+				B19365881D8E79ED00061861 /* ViewController.h */,
+				B19365891D8E79ED00061861 /* ViewController.m */,
+				B193658B1D8E79ED00061861 /* Main.storyboard */,
+				B193658E1D8E79ED00061861 /* Assets.xcassets */,
+				B19365901D8E79ED00061861 /* LaunchScreen.storyboard */,
+				B19365931D8E79ED00061861 /* Info.plist */,
+				B19365821D8E79ED00061861 /* Supporting Files */,
+			);
+			path = YKCalendarDemo;
+			sourceTree = "<group>";
+		};
+		B19365821D8E79ED00061861 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B19365831D8E79ED00061861 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B19365991D8E79FA00061861 /* YKCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				B19365A31D8E7B2200061861 /* UIView+Extension.h */,
+				B19365A41D8E7B2200061861 /* UIView+Extension.m */,
+				B19365A61D8E811900061861 /* IWCalendarSelectedSMView.h */,
+				B19365A71D8E811900061861 /* IWCalendarSelectedSMView.m */,
+				B19365A81D8E811900061861 /* IWCalendarSelectedView.h */,
+				B19365A91D8E811900061861 /* IWCalendarSelectedView.m */,
+				B193659A1D8E79FA00061861 /* YKCalendarButton.h */,
+				B193659B1D8E79FA00061861 /* YKCalendarButton.m */,
+				B193659C1D8E79FA00061861 /* YKCalendarTool.h */,
+				B193659D1D8E79FA00061861 /* YKCalendarTool.m */,
+				B193659E1D8E79FA00061861 /* YKCalendarView.h */,
+				B193659F1D8E79FA00061861 /* YKCalendarView.m */,
+			);
+			path = YKCalendarView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B193657E1D8E79ED00061861 /* YKCalendarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19365961D8E79ED00061861 /* Build configuration list for PBXNativeTarget "YKCalendarDemo" */;
+			buildPhases = (
+				B193657B1D8E79ED00061861 /* Sources */,
+				B193657C1D8E79ED00061861 /* Frameworks */,
+				B193657D1D8E79ED00061861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKCalendarDemo;
+			productName = YKCalendarDemo;
+			productReference = B193657F1D8E79ED00061861 /* YKCalendarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B19365771D8E79ED00061861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "易凯";
+				TargetAttributes = {
+					B193657E1D8E79ED00061861 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B193657A1D8E79ED00061861 /* Build configuration list for PBXProject "YKCalendarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B19365761D8E79ED00061861;
+			productRefGroup = B19365801D8E79ED00061861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B193657E1D8E79ED00061861 /* YKCalendarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B193657D1D8E79ED00061861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19365921D8E79ED00061861 /* LaunchScreen.storyboard in Resources */,
+				B193658F1D8E79ED00061861 /* Assets.xcassets in Resources */,
+				B193658D1D8E79ED00061861 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B193657B1D8E79ED00061861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B193658A1D8E79ED00061861 /* ViewController.m in Sources */,
+				B19365A11D8E79FA00061861 /* YKCalendarTool.m in Sources */,
+				B19365871D8E79ED00061861 /* AppDelegate.m in Sources */,
+				B19365AA1D8E811900061861 /* IWCalendarSelectedSMView.m in Sources */,
+				B19365A51D8E7B2200061861 /* UIView+Extension.m in Sources */,
+				B19365841D8E79ED00061861 /* main.m in Sources */,
+				B19365A21D8E79FA00061861 /* YKCalendarView.m in Sources */,
+				B19365AB1D8E811900061861 /* IWCalendarSelectedView.m in Sources */,
+				B19365A01D8E79FA00061861 /* YKCalendarButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B193658B1D8E79ED00061861 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B193658C1D8E79ED00061861 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B19365901D8E79ED00061861 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19365911D8E79ED00061861 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B19365941D8E79ED00061861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B19365951D8E79ED00061861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B19365971D8E79ED00061861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YKCalendarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.YKCalendarDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B19365981D8E79ED00061861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YKCalendarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.YKCalendarDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B193657A1D8E79ED00061861 /* Build configuration list for PBXProject "YKCalendarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19365941D8E79ED00061861 /* Debug */,
+				B19365951D8E79ED00061861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19365961D8E79ED00061861 /* Build configuration list for PBXNativeTarget "YKCalendarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19365971D8E79ED00061861 /* Debug */,
+				B19365981D8E79ED00061861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B19365771D8E79ED00061861 /* Project object */;
+}
